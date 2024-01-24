@@ -1,2 +1,2 @@
 # cicd
-12_Homework_Continuous_Integration
+12_Homework_Continuous_Integration_by_Olha_Ovsiienko
