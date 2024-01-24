@@ -5,6 +5,10 @@ on:
     branches:
       - main
       - jenk
+  pull_request:
+    types:
+      - opened
+      - synchronize
   workflow_dispatch:
 
 jobs:
@@ -40,3 +44,4 @@ jobs:
 
       - name: Test application
         run: 'mvn test'
+
